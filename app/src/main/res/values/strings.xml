@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WhiteBoard</string>
+    <string name="str_brush">畫筆</string>
+    <string name="str_line_width">線徑</string>
+    <string name="str_straight_line">直線</string>
+    <string name="str_eraser">橡皮擦</string>
+    <string name="str_change_color">換色</string>
+
+    <string name="str_1_px">1px</string>
+    <string name="str_3_px">3px</string>
+    <string name="str_5_px">5px</string>
+    <string name="str_10_px">10px</string>
+</resources>

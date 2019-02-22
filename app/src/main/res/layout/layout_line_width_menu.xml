@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_line_width_menu"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:elevation="2dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/menu_1_px"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/icon_line_1px"
+            android:gravity="center_horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="15dp"
+            android:text="@string/str_1_px"
+            android:textColor="@color/board_menu_check_color"/>
+
+        <RadioButton
+            android:id="@+id/menu_3_px"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/icon_line_3px"
+            android:gravity="center_horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="15dp"
+            android:text="@string/str_3_px"
+            android:textColor="@color/board_menu_check_color"/>
+
+        <RadioButton
+            android:id="@+id/menu_5_px"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/icon_line_5px"
+            android:gravity="center_horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="15dp"
+            android:text="@string/str_5_px"
+            android:textColor="@color/board_menu_check_color"/>
+
+        <RadioButton
+            android:id="@+id/menu_10_px"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/icon_line_10px"
+            android:gravity="center_horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="15dp"
+            android:text="@string/str_10_px"
+            android:textColor="@color/board_menu_check_color"/>
+    </RadioGroup>
+
+    <com.sean.whiteboard.menu.Arrow
+        android:id="@+id/view_arrow"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:layout_marginBottom="2dp"
+        android:elevation="2dp"/>
+</LinearLayout>

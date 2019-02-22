@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="paint_color_array">
+        <item>#fe1212</item>
+        <item>#fee512</item>
+        <item>#12fe97</item>
+        <item>#12befe</item>
+        <item>#1223fe</item>
+        <item>#9212fe</item>
+        <item>#fb12fe</item>
+        <item>#000000</item>
+    </string-array>
+</resources>
